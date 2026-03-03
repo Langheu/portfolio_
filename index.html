@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANGHEU MARCEL - Développeur Web & Mobile</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <div class="nav-logo-icon circle">
+                    <i class="fas fa-code"></i>
+                </div>
+                <span>LANGHEU MARCEL</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Réalisations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="animated-bg">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="logo-container">
+                    <div class="logo"><i class="fas fa-code"></i></div>
+                    <div class="brand-name">LANGHEU MARCEL</div>
+                </div>
+
+                <h1>
+                    <div class="web">Développeur</div>
+                    <div class="design">Web &</div>
+                    <div class="service">Mobile</div>
+                </h1>
+
+                <p class="hero-description">
+                    <strong>Transformez vos idées en applications web et mobile performantes et innovantes.</strong>
+                    Je crée des solutions numériques sur mesure, modernes et responsives, parfaitement adaptées à vos
+                    besoins et objectifs. Expertise en développement full-stack avec une passion pour le code propre et
+                    les interfaces intuitives.
+                </p>
+
+                <a href="#contact" class="cta-button">Discutons de votre projet <i class="fas fa-arrow-right"></i></a>
+                <!-- Bouton de téléchargement du CV -->
+                <a href="cv.pdf" class="cv-button" download>Télécharger mon CV</a>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <div style="font-size: 0.9rem; opacity: 0.8;">Appelez-moi</div>
+                            <div style="font-weight: 600;">+228 71990400</div>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div style="font-size: 0.9rem; opacity: 0.8;">Envoyez un email</div>
+                            <div style="font-weight: 600;">ahmatlangheu@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Links in Hero -->
+                <div
+                    style="margin-top: 30px; display: flex; gap: 15px; animation: fadeInUp 1s ease-out 1.2s backwards;">
+                    <!-- Personnalisez vos profils sociaux ici -->
+                    <a href="https://github.com/langheumarcel" target="_blank" rel="noopener noreferrer"
+                        class="hero-social-icon" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/langheumarcel" target="_blank" rel="noopener noreferrer"
+                        class="hero-social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/langheumarcel" target="_blank" rel="noopener noreferrer"
+                        class="hero-social-icon" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://facebook.com/langheumarcel" target="_blank" rel="noopener noreferrer"
+                        class="hero-social-icon" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://wa.me/22871990400" target="_blank" rel="noopener noreferrer"
+                        class="hero-social-icon" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-container">
+                    <div class="decorative-elements">
+                        <div class="tech-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="tech-icon"><i class="fas fa-palette"></i></div>
+                        <div class="tech-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="tech-icon"><i class="fas fa-rocket"></i></div>
+                    </div>
+
+                    <div class="profile-circle circle">
+                        <div class="profile-image">
+                            <img src="profile.png" alt="LANGHEU MARCEL">
+                        </div>
+                    </div>
+
+                    <div class="dotted-pattern">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="services about-section" id="about">
+        <h2 class="section-title fade-in">À Propos de Moi</h2>
+        <div class="about-container">
+            <div class="about-text fade-in">
+                <h3 class="about-subtitle">Qui suis-je ?</h3>
+                <p class="about-paragraph">
+                    Je suis <strong>LANGHEU MARCEL</strong>, développeur web et mobile passionné avec une expertise dans
+                    la création d'applications modernes et performantes. Mon objectif est de transformer vos idées en
+                    solutions numériques innovantes qui répondent à vos besoins.
+                </p>
+                <p class="about-paragraph">
+                    Fort d'une expérience solide dans le développement full-stack, je maîtrise les technologies les plus
+                    récentes pour créer des applications web et mobile qui allient performance, design élégant et
+                    expérience utilisateur optimale.
+                </p>
+                <p class="about-paragraph">
+                    Je crois en l'apprentissage continu et je reste toujours à l'affût des dernières innovations
+                    technologiques pour offrir à mes clients des solutions de pointe.
+                </p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Code propre & optimisé</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Design responsive</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Solutions innovantes</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Support & maintenance</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-card fade-in">
+                <h4 class="about-card-title">Expérience & Formation</h4>
+                <div class="about-experience">
+                    <div class="experience-item">
+                        <i class="fas fa-briefcase"></i>
+                        <div>
+                            <h5>Développeur Full-Stack</h5>
+                            <p>Projets freelance & entreprises</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h5>Formation Continue</h5>
+                            <p>Technologies Web & Mobile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <h5>Statistiques</h5>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Projets réalisés</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Clients satisfaits</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="services" id="skills" style="background: var(--dark-bg);">
+        <h2 class="section-title fade-in">Mes Compétences</h2>
+        <div class="services-grid">
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fab fa-html5"></i></div>
+                <h3>Frontend</h3>
+                <p>HTML5, CSS3, JavaScript, React.js, Vue.js, Next.js, Tailwind CSS, Bootstrap, SASS</p>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fab fa-node-js"></i></div>
+                <h3>Backend</h3>
+                <p>Node.js, Express.js, PHP, Laravel, Python, Django, API REST, GraphQL, WebSockets</p>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h3>Mobile</h3>
+                <p>React Native, Flutter, Ionic, développement cross-platform iOS et Android</p>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fas fa-database"></i></div>
+                <h3>Bases de Données</h3>
+                <p>MongoDB, MySQL, PostgreSQL, Firebase, Redis, SQLite, conception de schémas</p>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fab fa-git-alt"></i></div>
+                <h3>DevOps & Outils</h3>
+                <p>Git, GitHub, GitLab, Docker, CI/CD, AWS, Heroku, Vercel, Netlify</p>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fas fa-palette"></i></div>
+                <h3>Design & UX</h3>
+                <p>Figma, Adobe XD, Photoshop, UI/UX Design, wireframing, prototypage</p>
+            </div>
+        </div>
+
+        <!-- Skill Bars -->
+        <div class="skill-bars fade-in">
+            <h3 style="text-align: center; font-size: 2rem; margin-bottom: 40px;">Niveau de Maîtrise</h3>
+
+            <div class="skill-bar">
+                <div class="skill-bar-header">
+                    <span>JavaScript / TypeScript</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar-fill-container">
+                    <div class="skill-bar-fill" data-width="90" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-bar-header">
+                    <span>React.js / Next.js</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar-fill-container">
+                    <div class="skill-bar-fill" data-width="85" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-bar-header">
+                    <span>Node.js / Express</span>
+                    <span>88%</span>
+                </div>
+                <div class="skill-bar-fill-container">
+                    <div class="skill-bar-fill" data-width="88" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-bar-header">
+                    <span>React Native / Flutter</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar-fill-container">
+                    <div class="skill-bar-fill" data-width="80" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-bar-header">
+                    <span>MongoDB / PostgreSQL</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar-fill-container">
+                    <div class="skill-bar-fill" data-width="85" style="width: 0%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-bar-header">
+                    <span>UI/UX Design</span>
+                    <span>75%</span>
+                </div>
+                <div class="skill-bar-fill-container">
+                    <div class="skill-bar-fill" data-width="75" style="width: 0%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="portfolio" id="projects">
+        <h2 class="section-title fade-in">Mes Réalisations</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item fade-in">
+                <img src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80"
+                    alt="Application E-Commerce">
+                <div class="portfolio-overlay">
+                    <h3>Application E-Commerce</h3>
+                    <p>Plateforme mobile complète avec paiement intégré - React Native & Node.js</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+                    alt="Dashboard Analytics">
+                <div class="portfolio-overlay">
+                    <h3>Dashboard Analytics</h3>
+                    <p>Interface d'administration avec graphiques en temps réel - React & Chart.js</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                    alt="Site Web Corporate">
+                <div class="portfolio-overlay">
+                    <h3>Site Web Corporate</h3>
+                    <p>Site vitrine moderne et responsive avec CMS - Vue.js & WordPress</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in">
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80"
+                    alt="Application Mobile Fitness">
+                <div class="portfolio-overlay">
+                    <h3>Application Mobile Fitness</h3>
+                    <p>App de suivi d'entraînement avec tracker GPS - Flutter & Firebase</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=800&q=80"
+                    alt="API REST Microservices">
+                <div class="portfolio-overlay">
+                    <h3>API REST Microservices</h3>
+                    <p>Architecture backend scalable - Node.js, Express & MongoDB</p>
+                </div>
+            </div>
+            <div class="portfolio-item fade-in">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+                    alt="Plateforme de Réservation">
+                <div class="portfolio-overlay">
+                    <h3>Plateforme de Réservation</h3>
+                    <p>Système de booking en ligne - React, Redux & PostgreSQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <h2 class="section-title">Travaillons Ensemble</h2>
+            <p style="font-size: 1.2rem; margin: 20px 0;">Prêt à donner vie à votre projet digital ?</p>
+
+            <a href="mailto:ahmatlangheu@gmail.com" class="cta-button" style="margin: 30px 0; display: inline-block;">
+                Contactez-moi <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <div class="social-links">
+                <!-- Personnalisez vos liens sociaux ci-dessous -->
+                <a href="https://facebook.com/langheumarcel" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com/langheumarcel" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/langheumarcel" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://linkedin.com/in/langheumarcel" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/langheumarcel" target="_blank" rel="noopener noreferrer" class="social-icon"
+                    title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://wa.me/22871990400" target="_blank" rel="noopener noreferrer" class="social-icon"
+                    title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+
+            <div style="margin-top: 40px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1);">
+                <p>&copy; 2026 LANGHEU MARCEL. Tous droits réservés.</p>
+                <p style="margin-top: 10px; opacity: 0.7;">
+                    <i class="fas fa-phone-alt"></i> +228 71990400 | <i class="fas fa-envelope"></i>
+                    ahmatlangheu@gmail.com
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const navbar = document.querySelector('.navbar');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                menuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Active navigation on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-menu a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+                if (current === '' && link.getAttribute('href') === '#') {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Scroll Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Animate skill bars when visible
+        const skillBarsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const skillBars = entry.target.querySelectorAll('.skill-bar-fill');
+                    skillBars.forEach((bar, index) => {
+                        setTimeout(() => {
+                            const width = bar.getAttribute('data-width');
+                            bar.style.width = width + '%';
+                        }, index * 100);
+                    });
+                    skillBarsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const skillBarsContainer = document.querySelector('.skill-bars');
+        if (skillBarsContainer) {
+            skillBarsObserver.observe(skillBarsContainer);
+        }
+
+        // Parallax Effect for Hero
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const heroContent = document.querySelector('.hero-content');
+            if (heroContent && scrolled < 800) {
+                heroContent.style.transform = `translateY(${scrolled * 0.3}px)`;
+                heroContent.style.opacity = 1 - (scrolled / 800);
+            }
+        });
+
+        // Interactive Tech Icons with Random Movement
+        const techIcons = document.querySelectorAll('.tech-icon');
+        techIcons.forEach((icon, index) => {
+            icon.addEventListener('mouseenter', () => {
+                icon.style.transform = 'scale(1.3) rotate(15deg)';
+                icon.style.transition = 'transform 0.3s ease';
+            });
+            icon.addEventListener('mouseleave', () => {
+                icon.style.transform = 'scale(1) rotate(0deg)';
+            });
+
+            // Random float effect
+            setInterval(() => {
+                const randomX = Math.random() * 20 - 10;
+                const randomY = Math.random() * 20 - 10;
+                if (!icon.matches(':hover')) {
+                    icon.style.transform = `translate(${randomX}px, ${randomY}px)`;
+                }
+            }, 3000 + index * 500);
+        });
+
+        // Cursor Trail Effect
+        const createTrail = (e) => {
+            const trail = document.createElement('div');
+            trail.style.position = 'fixed';
+            trail.style.width = '10px';
+            trail.style.height = '10px';
+            trail.style.borderRadius = '50%';
+            trail.style.background = 'rgba(255, 107, 53, 0.5)';
+            trail.style.pointerEvents = 'none';
+            trail.style.left = e.clientX + 'px';
+            trail.style.top = e.clientY + 'px';
+            trail.style.transition = 'all 0.5s ease';
+            trail.style.zIndex = '9999';
+            document.body.appendChild(trail);
+
+            setTimeout(() => {
+                trail.style.opacity = '0';
+                trail.style.transform = 'scale(2)';
+            }, 10);
+
+            setTimeout(() => {
+                trail.remove();
+            }, 500);
+        };
+
+        let lastTrailTime = 0;
+        document.addEventListener('mousemove', (e) => {
+            const now = Date.now();
+            if (now - lastTrailTime > 50) {
+                createTrail(e);
+                lastTrailTime = now;
+            }
+        });
+
+        // Service Cards Hover Effect
+        const serviceCards = document.querySelectorAll('.service-card');
+        serviceCards.forEach(card => {
+            card.addEventListener('mouseenter', function () {
+                this.style.borderColor = 'var(--accent-orange)';
+                const icon = this.querySelector('.service-icon');
+                if (icon) {
+                    icon.style.animation = 'none';
+                    setTimeout(() => {
+                        icon.style.animation = '';
+                    }, 10);
+                }
+            });
+            card.addEventListener('mouseleave', function () {
+                this.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+            });
+
+            // 3D Tilt Effect
+            card.addEventListener('mousemove', function (e) {
+                const rect = this.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+
+                const rotateX = (y - centerY) / 10;
+                const rotateY = (centerX - x) / 10;
+
+                this.style.transform = `translateY(-10px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+            });
+
+            card.addEventListener('mouseleave', function () {
+                this.style.transform = 'translateY(0) rotateX(0) rotateY(0)';
+            });
+        });
+
+        // Typing Effect for Hero Title (commented out but available)
+        /*
+        const words = ['Web', 'Design', 'Service'];
+        let wordIndex = 0;
+        const typeWriter = () => {
+            // Add typing animation logic here
+        };
+        */
+
+        // Portfolio Items Hover Effect
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        portfolioItems.forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                this.style.transform = 'scale(1.05) translateY(-5px) rotateZ(2deg)';
+            });
+            item.addEventListener('mouseleave', function () {
+                this.style.transform = 'scale(1) translateY(0) rotateZ(0)';
+            });
+        });
+
+        // Floating Animation for Logo
+        const logo = document.querySelector('.logo');
+        if (logo) {
+            let rotation = 0;
+            setInterval(() => {
+                rotation += 1;
+                if (rotation >= 360) rotation = 0;
+                logo.style.transform = `rotateY(${rotation}deg)`;
+            }, 30);
+        }
+
+        // Counter Animation for Stats (if needed)
+        function animateValue(element, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                element.innerHTML = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // Random Background Particles
+        const createParticle = () => {
+            const hero = document.querySelector('.hero');
+            if (!hero) return;
+
+            const particle = document.createElement('div');
+            particle.style.position = 'absolute';
+            particle.style.width = Math.random() * 5 + 2 + 'px';
+            particle.style.height = particle.style.width;
+            particle.style.background = 'rgba(255, 255, 255, 0.3)';
+            particle.style.borderRadius = '50%';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.top = Math.random() * 100 + '%';
+            particle.style.pointerEvents = 'none';
+            particle.style.animation = `float ${Math.random() * 3 + 4}s ease-in-out infinite`;
+            hero.appendChild(particle);
+
+            setTimeout(() => {
+                particle.remove();
+            }, 7000);
+        };
+
+        // Create particles periodically
+        setInterval(createParticle, 300);
+
+        // Section Title Animation on Scroll
+        const sectionTitles = document.querySelectorAll('.section-title');
+        sectionTitles.forEach(title => {
+            const titleObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'fadeInUp 0.8s ease-out';
+                    }
+                });
+            });
+            titleObserver.observe(title);
+        });
+
+        // Button Ripple Effect
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', function (e) {
+                const ripple = document.createElement('span');
+                const rect = this.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.clientX - rect.left - size / 2;
+                const y = e.clientY - rect.top - size / 2;
+
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                ripple.style.position = 'absolute';
+                ripple.style.borderRadius = '50%';
+                ripple.style.background = 'rgba(255, 255, 255, 0.5)';
+                ripple.style.transform = 'scale(0)';
+                ripple.style.animation = 'ripple 0.6s ease-out';
+                ripple.style.pointerEvents = 'none';
+
+                this.appendChild(ripple);
+
+                setTimeout(() => ripple.remove(), 600);
+            });
+        });
+
+        // Add ripple animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        console.log(' Portfolio LANGHEU MARCEL chargé avec succès!');
+        console.log(' Animations activées: Parallax, Scroll, Hover Effects, Cursor Trail');
+    </script>
+</body>
+
+</html>
